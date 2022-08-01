@@ -9,7 +9,7 @@ function App() {
         <p>
           Portifólio LampCreated
         </p>
-        <p> em desenvolvimento...</p>
+        <p>Em desenvolvimento...</p>
       </header>
     </div>
   );
