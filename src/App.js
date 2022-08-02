@@ -1,17 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './pages/header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+        <Header />
         <p>
           Portifólio LampCreated
         </p>
         <p>Em desenvolvimento...</p>
-      </header>
-    </div>
+    </>
   );
 }
 
