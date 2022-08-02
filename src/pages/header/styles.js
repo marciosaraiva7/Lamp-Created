@@ -11,10 +11,9 @@ export const logoSpinner = keyframes`
 `;
 
 export const Container = styled.div`
-  position: fixed;
-  top: 0;
+  
   width: 100%;
-  height: 18%;
+  height: 28%;
   background-color: ${dark.colors.background};
   display: flex;
   align-items: center;
