@@ -1,17 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './pages/header';
+import  CarrouselPortifolio  from './pages/CarrouselPortifolios';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+        <Header />
+        <CarrouselPortifolio />
         <p>
           Portifólio LampCreated
         </p>
-        <p> em desenvolvimento...</p>
-      </header>
-    </div>
+        <p>Em desenvolvimento...</p>
+    </>
   );
 }
 
